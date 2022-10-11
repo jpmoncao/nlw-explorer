@@ -14,6 +14,9 @@ Landing page com tema de E-sports feito por [João Pedro Monção](https://githu
 
 [Execute a landing page clicando aqui!](https://jpmoncao.github.io/nlw-explorer/)
 
+## 🎈Desafio extra
+Recomendo dar uma olhada em um projeto semelhante da maratona! Feito como desafio extra.
+ - [Landing page tema de filmes e séries](https://github.com/jpmoncao/nlw-esports-extra) 
 
 ## ✔️Melhorias
 Sistema CRUD de contas via github, mais interatividade e etc
