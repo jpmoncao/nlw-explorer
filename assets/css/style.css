@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+header {
+    padding-top: 32px;
+    height: calc(120px + 32px);
+}
+
+header div {
+    margin: auto;
+    width: 120px;
+
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 50%;
+    padding: 4px;
+
+    display: flex;
+
+    transition: transform .3s;
+}
+
+header div:hover {
+    transform: scale(1.1);
+}
+
+header img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+
+    display: grid;
+    gap: 24px;
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 12px;
+}
+
+section div {
+    background-color: #2a2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section h2 {
+    /* font-weight: bolder;
+    font-size: 1.5em; */
+    letter-spacing: -0.47px;
+}
+
+section p {
+    /* font-weight: normal;
+    font-size: 1em; */
+    letter-spacing: -0.18px;
+    color: #a1a1a1;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+section ul {
+    margin-top: 24px;
+}
+
+section ul li {
+    transition: transform .3s;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
+}
+
+.games-list img{
+    border-radius: 8px;
+    width: 90px;
+}
+
+.channel-list img{
+    border-radius: 50%;
+    width: 70px;
+}
+
+/* Animation */
+
+header div {
+    animation: fromTop .75s;
+    animation-delay: .25s;
+    animation-fill-mode: backwards;
+}
+
+main section{
+    animation: fromBottom .75s;
+    animation-fill-mode: backwards;
+}
+
+main section:nth-child(2) {
+    animation-delay: .3s;
+}
+
+main section:nth-child(3) {
+    animation-delay: .5s;
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
