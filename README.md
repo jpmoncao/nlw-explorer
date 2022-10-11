@@ -12,7 +12,7 @@ Landing page com tema de E-sports feito por [João Pedro Monção](https://githu
 
 ## ⏩Executando
 
-![Execute a landing page clicando aqui!](https://jpmoncao.github.io/nlw-explorer/)
+[Execute a landing page clicando aqui!](https://jpmoncao.github.io/nlw-explorer/)
 
 
 ## ✔️Melhorias
